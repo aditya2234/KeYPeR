@@ -62,10 +62,10 @@ const showPasswords = () => {
 
 
             str += `<tr>
-                    <td>${element.website}<img src="copy.jpg" onclick="copyText('${element.website}')" alt="Copy Button" width="29" height="19"></td>
-                    <td>${element.username}<img src="copy.jpg" onclick="copyText('${element.username}')" alt="Copy Button" width="29" height="19"></td>
+                    <td>${element.website}<img src="copy.JPG" onclick="copyText('${element.website}')" alt="Copy Button" width="29" height="19"></td>
+                    <td>${element.username}<img src="copy.JPG" onclick="copyText('${element.username}')" alt="Copy Button" width="29" height="19"></td>
 
-                    <td>${maskPassword(element.password)} <img src="copy.jpg" onclick="copyText('${element.password}')" alt="Copy Button" width="29" height="19"> </td>
+                    <td>${maskPassword(element.password)} <img src="copy.JPG" onclick="copyText('${element.password}')" alt="Copy Button" width="29" height="19"> </td>
 
                     <td><button class="btnsm"  onclick="deletePassword('${element.website}')" >Delete</button></td>
                     </tr>`
